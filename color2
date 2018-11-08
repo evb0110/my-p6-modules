@@ -1,0 +1,10 @@
+use Colorize;
+
+my $bb = 'c111abcd';
+color( '\d ** 3 \w ** 2', $italic, $filled, $cyan, $bb);
+say $bb;
+
+my $a = "a111b";
+colorize( "111", $undermagenta, $a);
+say $a;
+
